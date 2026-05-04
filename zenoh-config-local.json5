@@ -1,0 +1,33 @@
+{
+  // Run as a Zenoh router.
+  mode: "router",
+
+  // Listen for Android app, Python CARLA app, and debug tools.
+  listen: {
+    endpoints: [
+      "tcp/0.0.0.0:7447"
+    ]
+  },
+
+  // This router does not need to connect to another router.
+  connect: {
+    endpoints: []
+  },
+
+  // Disable multicast discovery to make the setup deterministic.
+  // Your clients explicitly connect to tcp/192.168.1.102:7447.
+  scouting: {
+    multicast: {
+      enabled: false
+    },
+    gossip: {
+      enabled: false
+    }
+  },
+
+  // Optional metadata, useful if you inspect Zenoh admin space later.
+  metadata: {
+    name: "carla-zenoh-router",
+    location: "carla-host-192.168.1.102"
+  }
+}
