@@ -45,3 +45,9 @@ serial connection - /dev/ttyUSB0 -  115200
 
 help command for cmd instructions
 
+
+CARLA
+init server:
+x-verse@xverse-MS-7D98:~/autoverse/bridges/carla/examples$ just server-nvidia
+x-verse@xverse-MS-7D98:~/autoverse/bridges/carla/examples$ python3 automate.py 
+
