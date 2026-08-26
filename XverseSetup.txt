@@ -1,0 +1,47 @@
+init virtual can
+sudo modprobe vcan
+sudo ip link add dev vcan0 type vcan
+sudo ip link set vcan0 up
+
+init physical can
+sudo modprobe peak_usb
+sudo ip link set can0 up type can bitrate 500000
+
+to test vcan/can
+
+candump vcan0
+candump can0
+
+init zenoh daemon
+x-verse@xverse-MS-7D98:~/autoverse/core/zenoh$ zenohd -c zenoh-config.json5 
+
+init can bridge:
+x-verse@xverse-MS-7D98:~/autoverse/bridges/can/can-zenoh-bridge-python$ python3 src/bridge.py src/config/config.json 
+
+init BCM
+x-verse@xverse-MS-7D98:~/autoverse/vecu/bcm_can/binaries$ docker run -it --rm --network=host -v ~/renode_portable:/app/renode_portable renode-container nucleo_h743zi-sample.resc
+
+build and init s-core
+x-verse@xverse-MS-7D98:~/autoverse/vecu/s-core$ source prepare.sh 
+x-verse@xverse-MS-7D98:~/autoverse/vecu/s-core$ ./make.sh 
+x-verse@xverse-MS-7D98:~/autoverse/vecu/s-core$ ./ctl.sh up
+check s-core logs
+x-verse@xverse-MS-7D98:~/autoverse/vecu/s-core$ docker logs -f docker_setup-adas_score-1
+
+init someip bridge
+x-verse@xverse-MS-7D98:~/autoverse/vecu/s-core$ ./run-zenho2someip.sh 
+
+
+Init ADAS (android digital twin)
+x-verse@xverse-MS-7D98:~/autoverse/aaos_digital_cluster$ ./apk_launch.sh 
+
+
+Physical VCU CLI(UART1)
+x-verse@xverse-MS-7D98:~/autoverse$ sudo putty
+
+load black pill settings
+
+serial connection - /dev/ttyUSB0 -  115200
+
+help command for cmd instructions
+
