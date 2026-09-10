@@ -1,0 +1,58 @@
+x-verse@xverse-MS-7D98:~/autoverse/aaos_digital_cluster$ docker network inspect bridge
+[
+    {
+        "Name": "bridge",
+        "Id": "f0d3f32862e9a2993348d0c1f965aa0f57dd22a1f894ef89482c6cd45fc2e2c2",
+        "Created": "2026-09-10T14:14:58.781027414+01:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "IPRange": "",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {},
+        "Containers": {
+            "9bd630443d848dbe05daf7d387e60548f8be7323e50dda044b5f7890d97b583f": {
+                "Name": "iadt-registry",
+                "EndpointID": "8418d2baf9f7f24bd57f78cd87cbe75ff33104feb644f279648b9da96a151b71",
+                "MacAddress": "aa:0f:ab:07:26:89",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.17.0.0/16": {
+                        "IPsInUse": 4,
+                        "DynamicIPsAvailable": 65532
+                    }
+                }
+            }
+        }
+    }
+]
