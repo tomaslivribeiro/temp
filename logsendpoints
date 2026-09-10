@@ -1,9 +1,10 @@
 x-verse@xverse-MS-7D98:~/autoverse/aaos_digital_cluster$ docker network inspect bridge
+docker network inspect aaos_digital_cluster_default
 [
     {
-        "Name": "bridge",
-        "Id": "f0d3f32862e9a2993348d0c1f965aa0f57dd22a1f894ef89482c6cd45fc2e2c2",
-        "Created": "2026-09-10T14:14:58.781027414+01:00",
+        "Name": "aaos_digital_cluster_default",
+        "Id": "26501cf4255fc14836b2fb9efdcbfc15e412d61479d1caaa2d89a59d19d31f58",
+        "Created": "2026-07-27T15:15:06.931270125+01:00",
         "Scope": "local",
         "Driver": "bridge",
         "EnableIPv4": true,
@@ -13,9 +14,9 @@ x-verse@xverse-MS-7D98:~/autoverse/aaos_digital_cluster$ docker network inspect 
             "Options": null,
             "Config": [
                 {
-                    "Subnet": "172.17.0.0/16",
+                    "Subnet": "172.19.0.0/16",
                     "IPRange": "",
-                    "Gateway": "172.17.0.1"
+                    "Gateway": "172.19.0.1"
                 }
             ]
         },
@@ -26,28 +27,26 @@ x-verse@xverse-MS-7D98:~/autoverse/aaos_digital_cluster$ docker network inspect 
             "Network": ""
         },
         "ConfigOnly": false,
-        "Options": {
-            "com.docker.network.bridge.default_bridge": "true",
-            "com.docker.network.bridge.enable_icc": "true",
-            "com.docker.network.bridge.enable_ip_masquerade": "true",
-            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
-            "com.docker.network.bridge.name": "docker0",
-            "com.docker.network.driver.mtu": "1500"
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.config-hash": "bb30b76929fd4405dfd9cbdd56f5db90d80452d50aea3c153b5a55ff4ccb8652",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "aaos_digital_cluster",
+            "com.docker.compose.version": "5.0.1"
         },
-        "Labels": {},
         "Containers": {
-            "9bd630443d848dbe05daf7d387e60548f8be7323e50dda044b5f7890d97b583f": {
-                "Name": "iadt-registry",
-                "EndpointID": "8418d2baf9f7f24bd57f78cd87cbe75ff33104feb644f279648b9da96a151b71",
-                "MacAddress": "aa:0f:ab:07:26:89",
-                "IPv4Address": "172.17.0.2/16",
+            "b278800ebe9f450e6b09477922d0a7ee2bb999056517edd374d3bef264e55721": {
+                "Name": "android-emulator-tablet",
+                "EndpointID": "35962889d4075dac7b42339e43f816d4632c289ad172208a8677c7d9e994b20d",
+                "MacAddress": "22:ae:5a:78:81:fe",
+                "IPv4Address": "172.19.0.2/16",
                 "IPv6Address": ""
             }
         },
         "Status": {
             "IPAM": {
                 "Subnets": {
-                    "172.17.0.0/16": {
+                    "172.19.0.0/16": {
                         "IPsInUse": 4,
                         "DynamicIPsAvailable": 65532
                     }
