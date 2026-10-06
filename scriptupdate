@@ -1,0 +1,25 @@
+python3 - <<'PY'
+import json
+import os
+from pathlib import Path
+
+endpoint = os.environ["ZENOH_ENDPOINT"]
+
+path = Path(
+    "~/autoverse/bridges/can/"
+    "can-zenoh-bridge-python/src/config/config.json"
+).expanduser()
+
+document = json.loads(path.read_text(encoding="utf-8"))
+
+document.setdefault("zenoh", {})
+document["zenoh"]["mode"] = "peer"
+document["zenoh"]["connect"] = [endpoint]
+
+path.write_text(
+    json.dumps(document, indent=2) + "\n",
+    encoding="utf-8",
+)
+
+print("CAN bridge endpoint:", endpoint)
+PY
