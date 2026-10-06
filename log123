@@ -1,0 +1,116 @@
+ity_sts] :: ego_velocity_sts: 12.2385 → 12.0988
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F0 data=0100000000000000
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000ea0b0000
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F0 data=0000000000000000
+INFO:__main__:(Pulse sent) id=0x1F0 signal=ego_cc_engage_req 0.0→1.0→0.0, width=0.2s
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 12.0988 → 11.9332
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000c00b0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.9332 → 11.7828
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000009a0b0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.7828 → 11.6531
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000790b0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.6531 → 11.5228
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000580b0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.5228 → 11.3904
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000370b0000
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F0 data=0000000000000000
+INFO:__main__:(Pulse sent) id=0x1F0 signal=ego_cc_engage_req 0.0→1.0→0.0, width=0.2s
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.3904 → 11.2583
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000160b0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.2583 → 11.1211
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000f30a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.1211 → 11.0103
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000d70a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 11.0103 → 10.9026
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000bc0a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.9026 → 10.7977
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000a20a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.7977 → 10.6677
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000810a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.6677 → 10.5297
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000005e0a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.5297 → 10.3877
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000003a0a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.3877 → 10.2864
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000210a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.2864 → 10.1664
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000030a0000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.1664 → 10.0506
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000e5090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 10.0506 → 9.9487
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000cc090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.9487 → 9.8495
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000b3090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.8495 → 9.7369
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000096090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.7369 → 9.6112
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000077090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.6112 → 9.4156
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000045090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.4156 → 9.3243
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000002e090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.3243 → 9.2083
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000011090000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.2083 → 9.0934
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000f4080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.0934 → 9.0036
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000dd080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 9.0036 → 8.906
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000c5080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.906 → 8.7815
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000a5080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.7815 → 8.6704
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000089080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.6704 → 8.5654
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000006f080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.5654 → 8.4795
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000059080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.4795 → 8.3932
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000044080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.3932 → 8.2986
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000002c080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.2986 → 8.1983
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000012080000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.1983 → 8.086
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000f6070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 8.086 → 7.9965
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000e0070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.9965 → 7.9093
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000ca070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.9093 → 7.8106
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000b1070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.8106 → 7.6134
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000007f070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.6134 → 7.5264
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000069070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.5264 → 7.4261
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000050070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.4261 → 7.3392
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000003a070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.3392 → 7.2515
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000024070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.2515 → 7.1683
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000000f070000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.1683 → 7.0891
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000fb060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.0891 → 7.0148
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000e8060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 7.0148 → 6.9346
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000d4060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.9346 → 6.8588
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=00000000c1060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.8588 → 6.696
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000098060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.696 → 6.6104
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000082060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.6104 → 6.531
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000006e060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.531 → 6.4694
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000005f060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.4694 → 6.3928
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=000000004b060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.3928 → 6.3149
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000038060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_velocity_sts] :: ego_velocity_sts: 6.3149 → 6.2377
+INFO:__main__:(Zenoh→CAN sent) bus=vcan0 id=0x1F3 data=0000000024060000
+INFO:__main__:(Zenoh RX updated) vehicle/status/velocity_status [0x1F3/ego_veloc
