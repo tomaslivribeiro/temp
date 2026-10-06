@@ -1,0 +1,38 @@
+cd ~/autoverse/bridges/can/can-zenoh-bridge-python
+
+python3 - <<'PY'
+import json
+from pathlib import Path
+
+path = Path("src/config/config.json")
+document = json.loads(path.read_text(encoding="utf-8"))
+
+updated = False
+
+for mapping in document.get("mappings", []):
+    for signal in mapping.get("signals", []):
+        if signal.get("name") != "ego_cc_engage_req":
+            continue
+
+        signal["pulse_trigger_on"] = [
+            1,
+            True,
+            "true",
+            "press",
+            "pressed",
+            "on",
+        ]
+        updated = True
+
+if not updated:
+    raise SystemExit(
+        "ERROR: ego_cc_engage_req mapping not found"
+    )
+
+path.write_text(
+    json.dumps(document, indent=2) + "\n",
+    encoding="utf-8",
+)
+
+print("Updated cruise-control pulse triggers")
+PY
