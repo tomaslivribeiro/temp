@@ -1,0 +1,7 @@
+cat renode-container.tar.part_a renode-container.tar.part_b > renode-container.tar
+docker load -i renode-container.tar
+docker run -it --rm \
+ --network=host \
+ -v ~/renode_portable:/app/renode_portable \
+ renode-container \
+ nucleo_h743zi-sample.resc
